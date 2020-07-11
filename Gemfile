@@ -46,7 +46,7 @@ group :development do
   gem 'prettybacon'
   gem 'typhoeus', :git => 'https://github.com/kenmaz/typhoeus.git'
   gem 'ethon', :git => 'https://github.com/kenmaz/ethon.git'
-  gem 'ffi', :git => 'git@github.com:segiddins/ffi.git'
+  gem 'ffi', :git => 'git@github.com:segiddins/ffi.git', :branch => 'segiddins/arm-darwin'
   gem 'webmock'
 
   gem 'bigdecimal', '~> 1.3.0'
