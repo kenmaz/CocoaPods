@@ -44,7 +44,9 @@ group :development do
   gem 'mocha-on-bacon'
   gem 'netrc'
   gem 'prettybacon'
-  gem 'typhoeus'
+  gem 'typhoeus', :git => 'https://github.com/kenmaz/typhoeus.git'
+  gem 'ethon', :git => 'https://github.com/kenmaz/ethon.git'
+  gem 'ffi', :git => 'git@github.com:segiddins/ffi.git'
   gem 'webmock'
 
   gem 'bigdecimal', '~> 1.3.0'
